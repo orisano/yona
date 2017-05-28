@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/yona.iml" filepath="$PROJECT_DIR$/.idea/yona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yona_main.iml" filepath="$PROJECT_DIR$/.idea/modules/yona_main.iml" group="yona" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yona_test.iml" filepath="$PROJECT_DIR$/.idea/modules/yona_test.iml" group="yona" />
     </modules>
   </component>
 </project>
