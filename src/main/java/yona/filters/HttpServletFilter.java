@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 public abstract class HttpServletFilter implements Filter {
     @Override
     public final void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        doFilter((HttpServletRequest)request, (HttpServletResponse)response, chain);
+        doFilter((HttpServletRequest) request, (HttpServletResponse) response, chain);
     }
 
-    public abstract void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException;
+    abstract void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException;
 }
 
