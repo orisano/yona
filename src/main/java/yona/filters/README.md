@@ -1,7 +1,7 @@
 # Filters
-- [o] HttpServletFilter
+- [x] HttpServletFilter
 - [ ] RoutingFilter
 - [ ] CsrfTokenGenerator
 - [ ] CsrfTokenValidator
-- [o] EncodingSetter
+- [ ] EncodingSetter
 - [ ] HeaderCustomizer
