@@ -1,4 +1,4 @@
 # ORM
-- [ ] Column
-- [ ] Table
+- [x] Column
+- [x] Table
 
