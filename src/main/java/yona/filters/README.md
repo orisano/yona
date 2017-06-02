@@ -3,5 +3,5 @@
 - [ ] RoutingFilter
 - [ ] CsrfTokenGenerator
 - [ ] CsrfTokenValidator
-- [ ] EncodingSetter
-- [ ] HeaderCustomizer
+- [x] EncodingSetter
+- [x] HeaderCustomizer
