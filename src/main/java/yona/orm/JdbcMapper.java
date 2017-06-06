@@ -6,8 +6,8 @@ import java.lang.reflect.Field;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Mapper {
-    public Mapper(){}
+public class JdbcMapper {
+    public JdbcMapper(){}
 
     public <T> T fromResultSet(ResultSet resultSet, Class<T> type) throws SQLException {
         try {
